@@ -27,6 +27,7 @@ import time
 import urllib
 import hashlib
 from xml.etree import ElementTree as ET
+from xml.parsers.expat import ExpatError
 
 EC2_US_HOST = 'ec2.amazonaws.com'
 EC2_EU_HOST = 'eu-west-1.ec2.amazonaws.com'
